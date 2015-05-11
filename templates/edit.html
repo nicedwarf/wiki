@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+
+{% block wiki %}
+	<form method="post">
+  	  GradientOne Wiki Action
+  	  <br>
+   	<textarea name="wikicontent">{{wikitext}}{{wikicontent}}</textarea>
+      <br>
+    	<input type="submit" value = "Save"> 
+	</form>
+{% endblock %}
